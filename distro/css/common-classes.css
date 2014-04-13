@@ -6,6 +6,24 @@
     Purpose of the stylesheet follows.
     Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
 */
+/** Mixins
+======================================================================**/
+/*
+    Document   : _overflow
+    Created on : Aug 21, 2013, 11:09:16 AM
+    Author     : edelacruz
+    Description:
+    This mixin generates overflow-(x|y) for all browsers
+    Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
+/*
+    Document   : mixins
+    Created on : May 18, 2013, 5:14:54 PM
+    Author     : ElyDeLaCruz
+    Description:
+    Purpose of the stylesheet follows.
+    Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
 /** Common Classes
 ======================================================================**/
 /* line 8, ../../sass/common-classes/_clearfix.scss */
@@ -309,14 +327,6 @@
         for left and right
     Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
     @requires mixins/margin-and-padding-mixins
-*/
-/*
-    Document   : mixins
-    Created on : May 18, 2013, 5:14:54 PM
-    Author     : ElyDeLaCruz
-    Description:
-    Purpose of the stylesheet follows.
-    Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
 */
 /** Margin
 -----------------------------------------------------------------------------*/
