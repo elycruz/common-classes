@@ -37,6 +37,7 @@ Short hand for grayscale colors and backgrounds:
 <div class="bg-3 c-d">
     This div has a dark background with light text on it.
 </div>
+```
 
 ### Key Value Pairs
 Quick styling for fields that represent key value pairs in applications
