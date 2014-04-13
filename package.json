@@ -1,0 +1,19 @@
+{
+  "name": "common-classes",
+  "version": "0.0.0",
+  "description": "Common classes used for easing the development of  web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elycruz/common-classes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elycruz/common-classes/issues"
+  },
+  "homepage": "https://github.com/elycruz/common-classes"
+}
