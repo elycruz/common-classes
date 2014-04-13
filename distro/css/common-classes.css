@@ -1400,9 +1400,8 @@
 
 /** Text Decoration
 -------------------------------------------------------------*/
-/* line 29, ../../sass/common-classes/_text.scss */
-.tunderline,
-.text-underline {
+/* line 28, ../../sass/common-classes/_text.scss */
+.text-decor-underline {
   text-decoration: underline;
 }
 
