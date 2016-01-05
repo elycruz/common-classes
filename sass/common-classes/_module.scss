@@ -1,0 +1,5 @@
+@mixin module ($pos: relative, $width: 100%, $height: auto) {
+  position: $pos;
+  width: $width;
+  height: $height;
+}

@@ -7,11 +7,10 @@
     Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
 */
 
-$className: 0;
-
-// Generates a class definition with class prefix and attribute 
+// Generates a class definition with class prefix and attribute
 // and value of type unit
 @mixin genClassForNums ($nums, $classPrefix, $classSuffix, $prop, $unit: px) {
+    $className: 0;
     @each $i in $nums {
         @if $i == 0 {
             $className: #{$classPrefix}#{$i};
@@ -30,6 +29,7 @@ $className: 0;
             $classPrefix, $prefixPrefixes, $prop, $unit: px
 ) {
     $j: 1;
+    $className: 0;
     @each $subProp in $subProps {
         @each $i in $nums {
             @if $i == 0 {
@@ -48,6 +48,7 @@ $className: 0;
 
 // Generates property  
 @mixin genClassForNumsAndTwoSubProps ($nums, $prop, $subProps, $classPrefix, $unit: px) {
+    $className: 0;
     @each $i in $nums {
         @if $i == 0 {
             $className: #{$classPrefix}#{$i};
